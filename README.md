@@ -1,0 +1,2 @@
+# fizzee.jp
+fizzeeのメインページ
