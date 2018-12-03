@@ -1,0 +1,122 @@
+
+/*----- main  ------*/
+html {
+  background: #000;
+}
+
+body {
+  font-family: 'Source Sans Pro', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #57585c;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  margin: 0 auto;
+  padding:0
+  border:none;
+  color: var(--color-text); 
+  background-color: #fff;
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-text: #fff;
+  --color-bg: #333;
+  --color-link: #fff;
+  --color-link-hover: #f44e5e;
+  --color-info: #fff;
+  --color-main-bg: #fcf1b2;
+  --path-fill-1: #f3e696;
+  --path-fill-2: #ffe85e;
+  --path-fill-3: #ffe444;
+  --path-fill-4: #ffda00;
+  --color-title: #fff;
+  --font-family-title: inherit;
+  --font-size-title: 6vmax;
+  --font-weight-title: 200;
+  --color-menu: #fff;
+  --color-menu-hover: #fff;
+  --font-family-menu: inherit;
+  --font-size-menu: 4vmax;
+  --font-weight-menu: 200;
+  --button-bg: #fff;
+  --button-circle: #fff;
+  --button-line: #222;
+}
+
+/*-----  logo. -----*/
+
+.logomark {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  width: 180px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.headerlogo{
+  position: absolute;
+  top: 2%;
+  left: 8%;
+  width: 140px;
+  top: 0.4em;
+  right: 2.25em;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  height: 100%;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  background-image: url('');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+canvas .particles-js-canvas-el {
+     height: 100%;
+}
+
+#particles-js{
+  height: 100%;
+}
+
+canvas{
+  height: 100%;
+  width: 100%;
+}

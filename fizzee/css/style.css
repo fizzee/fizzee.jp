@@ -1,0 +1,154 @@
+/*----- contents ---*/
+.contents{
+  background-color: rgba(255,255,240,1);
+  left: 10%;
+  right: 10%;
+  height: 1100px;
+  margin-top: 2em;
+  margin-bottom:2em; 
+  position: absolute;
+  padding: 3em;
+}
+
+
+a{
+  color: #57585c;
+}
+/*----- main -------*/
+
+html,
+body,
+main {
+  height: 1200px;
+}
+ 
+main {
+  min-height: 100%; /* 最小の高さ */
+  width: 100%;
+}
+ 
+body > main {
+  height: auto; /* 要素を超えた分の背景が伸びないブラウザ用 */
+}
+
+header{
+  height: 80px;
+  background-color: #fcf1b2;
+}
+
+footer{
+  position: relative;
+  height: 50px;
+  background-color: rgba(255, 250, 180,1);
+  font-family: 'Source Sans Pro', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+body {
+  font-family: 'Sawarabi Gothic','Source Sans Pro', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: var(--color-text); 
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-text: black;
+  --color-bg: #333;
+  --color-link: red;
+  --color-link-hover: #f44e5e;
+  --color-info: #57585c;
+  --color-main-bg: #fcf1b2;
+  --path-fill-1: #f3e696;
+  --path-fill-2: #ffe85e;
+  --path-fill-3: #ffe444;
+  --path-fill-4: #ffda00;
+  --color-title: #57585c;
+  --font-family-title: inherit;
+  --font-size-title: 6vmax;
+  --font-weight-title: 200;
+  --color-menu: blue;
+  --color-menu-hover: #57585c;
+  --font-family-menu: inherit;
+  --font-size-menu: 4vmax;
+  --font-weight-menu: 200;
+  --button-bg: #fff;
+  --button-circle: #fff;
+  --button-line: #222;
+}
+
+.wf-sawarabigothic ,body { 
+  font-family: "Sawarabi Gothic";
+   }
+
+/*-----  logo. -----*/
+
+.logomark {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  width: 180px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.headerlogo{
+  top: 2%;
+  left: 2em;
+  width: 140px;
+  top: 0.4em;
+  right: 2.25em;
+  position:relative;
+}
+
+.footerlogo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 50px;
+  height: 3.2rem;
+}
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  background-image: url('');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
